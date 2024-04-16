@@ -1,0 +1,46 @@
+/**
+* Theme Name:Twenty Twenty Two Child Theme
+* Description: Twenty Twenty Two Child 
+* Author: Sruthy Surendran
+* Template: twentytwentytwo
+*/
+
+/* 
+body{
+    background-color: black;
+} */
+
+
+figure.alignfull.is-resized img,
+figure.wp-block-image.alignfull img,
+figure.wp-block-image.alignwide img {
+    display: none;
+}
+
+.wp-block-post-title a {
+    pointer-events: none; /* Disable click events */
+    cursor: default; /* Change cursor to default */
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use default text color */
+    font-weight: bold;
+    /* color:rgb(64, 74, 169);  */
+}
+
+.entry-title {
+    color: rgb(64, 74, 169);
+}
+
+
+/* Change heading color */
+/* .wp-block-post-title {
+    color: #920a0a; 
+} */
+
+/* .entry-content {
+    background-color: #c2e5f4; 
+    padding: 20px; 
+} */
+
+
+
+
